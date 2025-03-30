@@ -1,0 +1,837 @@
+Warning: unmatched constraint 'PIN_1' (on line 41)
+Warning: unmatched constraint 'PIN_2' (on line 42)
+Warning: unmatched constraint 'PIN_3' (on line 43)
+Warning: unmatched constraint 'PIN_4' (on line 44)
+Warning: unmatched constraint 'PIN_5' (on line 45)
+Warning: unmatched constraint 'PIN_6' (on line 46)
+Warning: unmatched constraint 'PIN_7' (on line 47)
+Warning: unmatched constraint 'PIN_8' (on line 48)
+Warning: unmatched constraint 'PIN_9' (on line 49)
+Warning: unmatched constraint 'PIN_10' (on line 50)
+Warning: unmatched constraint 'PIN_11' (on line 51)
+Warning: unmatched constraint 'PIN_12' (on line 52)
+Warning: unmatched constraint 'PIN_13' (on line 53)
+Warning: unmatched constraint 'PIN_14' (on line 56)
+Warning: unmatched constraint 'PIN_15' (on line 57)
+Warning: unmatched constraint 'PIN_16' (on line 58)
+Warning: unmatched constraint 'PIN_17' (on line 59)
+Warning: unmatched constraint 'PIN_18' (on line 60)
+Warning: unmatched constraint 'PIN_19' (on line 61)
+Warning: unmatched constraint 'PIN_20' (on line 62)
+Warning: unmatched constraint 'PIN_21' (on line 63)
+Warning: unmatched constraint 'PIN_22' (on line 64)
+Warning: unmatched constraint 'PIN_23' (on line 65)
+Warning: unmatched constraint 'PIN_24' (on line 66)
+Warning: unmatched constraint 'SPI_SS' (on line 69)
+Warning: unmatched constraint 'SPI_SCK' (on line 70)
+Warning: unmatched constraint 'SPI_IO0' (on line 71)
+Warning: unmatched constraint 'SPI_IO1' (on line 72)
+Warning: unmatched constraint 'SPI_IO2' (on line 73)
+Warning: unmatched constraint 'SPI_IO3' (on line 74)
+Warning: unmatched constraint 'PIN_25' (on line 77)
+Warning: unmatched constraint 'PIN_26' (on line 78)
+Warning: unmatched constraint 'PIN_27' (on line 79)
+Warning: unmatched constraint 'PIN_28' (on line 80)
+Warning: unmatched constraint 'PIN_29' (on line 81)
+Warning: unmatched constraint 'PIN_30' (on line 82)
+Warning: unmatched constraint 'PIN_31' (on line 83)
+Warning: unmatched constraint 'LED' (on line 86)
+Warning: unmatched constraint 'USBP' (on line 89)
+Warning: unmatched constraint 'USBN' (on line 90)
+Warning: unmatched constraint 'USBPU' (on line 91)
+Warning: unmatched constraint 'CLK' (on line 94)
+Warning: IO 'reset' is unconstrained in PCF and will be automatically placed
+Warning: IO 'pwm0_out' is unconstrained in PCF and will be automatically placed
+Warning: IO 'pulse0' is unconstrained in PCF and will be automatically placed
+Warning: IO 'pout0' is unconstrained in PCF and will be automatically placed
+Warning: IO 'leds[3]' is unconstrained in PCF and will be automatically placed
+Warning: IO 'leds[2]' is unconstrained in PCF and will be automatically placed
+Warning: IO 'leds[1]' is unconstrained in PCF and will be automatically placed
+Warning: IO 'leds[0]' is unconstrained in PCF and will be automatically placed
+Warning: IO 'enc0_b' is unconstrained in PCF and will be automatically placed
+Warning: IO 'enc0_a' is unconstrained in PCF and will be automatically placed
+Warning: IO 'clock0' is unconstrained in PCF and will be automatically placed
+Warning: IO 'clk' is unconstrained in PCF and will be automatically placed
+
+Info: Packing constants..
+Info: Packing IOs..
+Info: Packing LUT-FFs..
+Info:       92 LCs used as LUT4 only
+Info:       68 LCs used as LUT4 and DFF
+Info: Packing non-LUT FFs..
+Info:       32 LCs used as DFF only
+Info: Packing carries..
+Info:       41 LCs used as CARRY only
+Info: Packing indirect carry+LUT pairs...
+Info:       39 LUTs merged into carry LCs
+Info: Packing RAMs..
+Info: Placing PLLs..
+Info: Packing special functions..
+Info: Packing PLLs..
+Info: Promoting globals..
+Info: promoting clk$SB_IO_IN (fanout 82)
+Info: promoting reset$SB_IO_IN [reset] (fanout 57)
+Info: promoting clock0$SB_IO_OUT (fanout 18)
+Info: Constraining chains...
+Info:        6 LCs used to legalise carry chains.
+Info: Checksum: 0xad8d490e
+
+Info: Device utilisation:
+Info: 	         ICESTORM_LC:   202/ 7680     2%
+Info: 	        ICESTORM_RAM:     0/   32     0%
+Info: 	               SB_IO:    12/  256     4%
+Info: 	               SB_GB:     3/    8    37%
+Info: 	        ICESTORM_PLL:     0/    2     0%
+Info: 	         SB_WARMBOOT:     0/    1     0%
+
+Info: Placed 0 cells based on constraints.
+Info: Creating initial analytic placement for 126 cells, random placement wirelen = 4872.
+Info:     at initial placer iter 0, wirelen = 342
+Info:     at initial placer iter 1, wirelen = 274
+Info:     at initial placer iter 2, wirelen = 271
+Info:     at initial placer iter 3, wirelen = 272
+Info: Running main analytical placer, max placement attempts per cell = 10000.
+Info:     at iteration #1, type ICESTORM_LC: wirelen solved = 271, spread = 539, legal = 625; time = 0.01s
+Info:     at iteration #1, type SB_GB: wirelen solved = 625, spread = 625, legal = 651; time = 0.00s
+Info:     at iteration #1, type ALL: wirelen solved = 292, spread = 486, legal = 607; time = 0.01s
+Info:     at iteration #2, type ICESTORM_LC: wirelen solved = 293, spread = 522, legal = 567; time = 0.01s
+Info:     at iteration #2, type SB_GB: wirelen solved = 546, spread = 546, legal = 569; time = 0.00s
+Info:     at iteration #2, type ALL: wirelen solved = 270, spread = 470, legal = 611; time = 0.01s
+Info:     at iteration #3, type ICESTORM_LC: wirelen solved = 320, spread = 512, legal = 576; time = 0.01s
+Info:     at iteration #3, type SB_GB: wirelen solved = 545, spread = 545, legal = 581; time = 0.00s
+Info:     at iteration #3, type ALL: wirelen solved = 290, spread = 485, legal = 605; time = 0.01s
+Info:     at iteration #4, type ICESTORM_LC: wirelen solved = 326, spread = 515, legal = 625; time = 0.01s
+Info:     at iteration #4, type SB_GB: wirelen solved = 596, spread = 596, legal = 618; time = 0.00s
+Info:     at iteration #4, type ALL: wirelen solved = 298, spread = 484, legal = 615; time = 0.01s
+Info:     at iteration #5, type ICESTORM_LC: wirelen solved = 330, spread = 499, legal = 594; time = 0.01s
+Info:     at iteration #5, type SB_GB: wirelen solved = 573, spread = 573, legal = 594; time = 0.00s
+Info:     at iteration #5, type ALL: wirelen solved = 308, spread = 473, legal = 585; time = 0.01s
+Info:     at iteration #6, type ICESTORM_LC: wirelen solved = 330, spread = 505, legal = 609; time = 0.01s
+Info:     at iteration #6, type SB_GB: wirelen solved = 590, spread = 590, legal = 615; time = 0.00s
+Info:     at iteration #6, type ALL: wirelen solved = 301, spread = 482, legal = 596; time = 0.01s
+Info:     at iteration #7, type ICESTORM_LC: wirelen solved = 340, spread = 515, legal = 602; time = 0.01s
+Info:     at iteration #7, type SB_GB: wirelen solved = 582, spread = 582, legal = 596; time = 0.00s
+Info:     at iteration #7, type ALL: wirelen solved = 328, spread = 488, legal = 601; time = 0.01s
+Info:     at iteration #8, type ICESTORM_LC: wirelen solved = 346, spread = 501, legal = 589; time = 0.01s
+Info:     at iteration #8, type SB_GB: wirelen solved = 573, spread = 573, legal = 595; time = 0.00s
+Info:     at iteration #8, type ALL: wirelen solved = 319, spread = 591, legal = 641; time = 0.01s
+Info:     at iteration #9, type ICESTORM_LC: wirelen solved = 331, spread = 502, legal = 631; time = 0.01s
+Info:     at iteration #9, type SB_GB: wirelen solved = 616, spread = 616, legal = 631; time = 0.00s
+Info:     at iteration #9, type ALL: wirelen solved = 332, spread = 496, legal = 586; time = 0.01s
+Info:     at iteration #10, type ICESTORM_LC: wirelen solved = 337, spread = 515, legal = 593; time = 0.01s
+Info:     at iteration #10, type SB_GB: wirelen solved = 579, spread = 579, legal = 605; time = 0.00s
+Info:     at iteration #10, type ALL: wirelen solved = 315, spread = 502, legal = 572; time = 0.01s
+Info:     at iteration #11, type ICESTORM_LC: wirelen solved = 351, spread = 516, legal = 596; time = 0.01s
+Info:     at iteration #11, type SB_GB: wirelen solved = 582, spread = 593, legal = 596; time = 0.00s
+Info:     at iteration #11, type ALL: wirelen solved = 333, spread = 513, legal = 608; time = 0.01s
+Info:     at iteration #12, type ICESTORM_LC: wirelen solved = 359, spread = 515, legal = 563; time = 0.01s
+Info:     at iteration #12, type SB_GB: wirelen solved = 549, spread = 560, legal = 564; time = 0.00s
+Info:     at iteration #12, type ALL: wirelen solved = 350, spread = 510, legal = 618; time = 0.01s
+Info:     at iteration #13, type ICESTORM_LC: wirelen solved = 358, spread = 513, legal = 583; time = 0.01s
+Info:     at iteration #13, type SB_GB: wirelen solved = 570, spread = 580, legal = 582; time = 0.00s
+Info:     at iteration #13, type ALL: wirelen solved = 335, spread = 519, legal = 581; time = 0.01s
+Info:     at iteration #14, type ICESTORM_LC: wirelen solved = 345, spread = 506, legal = 585; time = 0.01s
+Info:     at iteration #14, type SB_GB: wirelen solved = 575, spread = 582, legal = 585; time = 0.00s
+Info:     at iteration #14, type ALL: wirelen solved = 336, spread = 511, legal = 573; time = 0.01s
+Info:     at iteration #15, type ICESTORM_LC: wirelen solved = 357, spread = 514, legal = 612; time = 0.01s
+Info:     at iteration #15, type SB_GB: wirelen solved = 604, spread = 610, legal = 612; time = 0.00s
+Info:     at iteration #15, type ALL: wirelen solved = 353, spread = 510, legal = 573; time = 0.01s
+Info: HeAP Placer Time: 0.29s
+Info:   of which solving equations: 0.22s
+Info:   of which spreading cells: 0.02s
+Info:   of which strict legalisation: 0.02s
+
+Info: Running simulated annealing placer for refinement.
+Info:   at iteration #1: temp = 0.000000, timing cost = 49, wirelen = 572
+Info:   at iteration #5: temp = 0.000000, timing cost = 56, wirelen = 506
+Info:   at iteration #10: temp = 0.000000, timing cost = 52, wirelen = 482
+Info:   at iteration #13: temp = 0.000000, timing cost = 53, wirelen = 460 
+Info: SA placement time 0.10s
+
+Info: Max frequency for clock 'clock0$SB_IO_OUT_$glb_clk': 162.87 MHz (PASS at 20.00 MHz)
+Info: Max frequency for clock     'clk$SB_IO_IN_$glb_clk': 94.01 MHz (PASS at 20.00 MHz)
+
+Info: Max delay <async>                           -> <async>                          : 5.33 ns
+Info: Max delay <async>                           -> posedge clk$SB_IO_IN_$glb_clk    : 11.71 ns
+Info: Max delay <async>                           -> posedge clock0$SB_IO_OUT_$glb_clk: 6.27 ns
+Info: Max delay posedge clk$SB_IO_IN_$glb_clk     -> <async>                          : 7.95 ns
+Info: Max delay posedge clock0$SB_IO_OUT_$glb_clk -> posedge clk$SB_IO_IN_$glb_clk    : 5.69 ns
+
+Info: Slack histogram:
+Info:  legend: * represents 1 endpoint(s)
+Info:          + represents [1,1) endpoint(s)
+Info: [ 39363,  39788) |* 
+Info: [ 39788,  40213) | 
+Info: [ 40213,  40638) | 
+Info: [ 40638,  41063) | 
+Info: [ 41063,  41488) | 
+Info: [ 41488,  41913) |* 
+Info: [ 41913,  42338) |* 
+Info: [ 42338,  42763) | 
+Info: [ 42763,  43188) | 
+Info: [ 43188,  43613) |* 
+Info: [ 43613,  44038) |*********** 
+Info: [ 44038,  44463) |********* 
+Info: [ 44463,  44888) |****** 
+Info: [ 44888,  45313) |*** 
+Info: [ 45313,  45738) |**************** 
+Info: [ 45738,  46163) |***** 
+Info: [ 46163,  46588) |******************** 
+Info: [ 46588,  47013) |*************** 
+Info: [ 47013,  47438) |************ 
+Info: [ 47438,  47863) |************************************************************ 
+Info: Checksum: 0xbefef2ea
+
+Info: Routing..
+Info: Setting up routing queue.
+Info: Routing 629 arcs.
+Info:            |   (re-)routed arcs  |   delta    | remaining|       time spent     |
+Info:    IterCnt |  w/ripup   wo/ripup |  w/r  wo/r |      arcs| batch(sec) total(sec)|
+Info:        842 |      201        574 |  201   574 |         0|       0.21       0.21|
+Info: Routing complete.
+Info: Router1 time 0.21s
+Info: Checksum: 0x2f798ceb
+
+Info: Critical path report for clock 'clock0$SB_IO_OUT_$glb_clk' (posedge -> posedge):
+Info: curr total
+Info:  0.8  0.8  Source debounce0_b.button_hist_SB_DFFSR_Q_3_DFFLC.O
+Info:  0.9  1.7    Net debounce0_b.button_hist[4] (4,25) -> (4,26)
+Info:                Sink debounce0_b.debounced_SB_DFFESR_Q_D_SB_LUT4_O_2_I2_SB_LUT4_O_1_LC.I0
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:24.30-24.126
+Info:                  src/debounce.v:13.24-13.35
+Info:  0.7  2.3  Source debounce0_b.debounced_SB_DFFESR_Q_D_SB_LUT4_O_2_I2_SB_LUT4_O_1_LC.O
+Info:  0.9  3.2    Net debounce0_b.debounced_SB_DFFESR_Q_D_SB_LUT4_O_2_I2[0] (4,26) -> (4,26)
+Info:                Sink debounce0_b.debounced_SB_DFFESR_Q_D_SB_LUT4_O_2_LC.I2
+Info:                Defined in:
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/cells_map.v:6.21-6.22
+Info:  0.6  3.7  Source debounce0_b.debounced_SB_DFFESR_Q_D_SB_LUT4_O_2_LC.O
+Info:  0.9  4.6    Net debounce0_b.debounced_SB_DFFESR_Q_D[2] (4,26) -> (4,26)
+Info:                Sink debounce0_b.debounced_SB_DFFESR_Q_E_SB_LUT4_O_LC.I2
+Info:                Defined in:
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/cells_map.v:6.21-6.22
+Info:  0.6  5.2  Source debounce0_b.debounced_SB_DFFESR_Q_E_SB_LUT4_O_LC.O
+Info:  2.2  7.3    Net debounce0_b.debounced_SB_DFFESR_Q_E (4,26) -> (5,26)
+Info:                Sink debounce0_b.debounced_SB_DFFESR_Q_DFFLC.CEN
+Info:  0.1  7.4  Setup debounce0_b.debounced_SB_DFFESR_Q_DFFLC.CEN
+Info: 2.7 ns logic, 4.8 ns routing
+
+Info: Critical path report for clock 'clk$SB_IO_IN_$glb_clk' (posedge -> posedge):
+Info: curr total
+Info:  0.8  0.8  Source random0.fb_SB_LUT4_I3_LC.O
+Info:  0.9  1.7    Net random0.cnt[0] (2,27) -> (2,26)
+Info:                Sink random0.cnt_SB_LUT4_I3_31_LC.I3
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:16.16-16.19
+Info:  0.5  2.1  Source random0.cnt_SB_LUT4_I3_31_LC.O
+Info:  0.9  3.0    Net encoder0.leds_SB_CARRY_I0_CO[1] (2,26) -> (1,25)
+Info:                Sink $nextpnr_ICESTORM_LC_5.I1
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.4  3.4  Source $nextpnr_ICESTORM_LC_5.COUT
+Info:  0.0  3.4    Net $nextpnr_ICESTORM_LC_5$O (1,25) -> (1,25)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_19$CARRY.CIN
+Info:  0.2  3.6  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_19$CARRY.COUT
+Info:  0.0  3.6    Net encoder0.leds_SB_CARRY_I0_CO[2] (1,25) -> (1,25)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_8$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  3.7  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_8$CARRY.COUT
+Info:  0.0  3.7    Net encoder0.leds_SB_CARRY_I0_CO[3] (1,25) -> (1,25)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_6$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  3.9  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_6$CARRY.COUT
+Info:  0.0  3.9    Net encoder0.leds_SB_CARRY_I0_CO[4] (1,25) -> (1,25)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_5$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  4.1  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_5$CARRY.COUT
+Info:  0.0  4.1    Net encoder0.leds_SB_CARRY_I0_CO[5] (1,25) -> (1,25)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_4$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  4.3  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_4$CARRY.COUT
+Info:  0.0  4.3    Net encoder0.leds_SB_CARRY_I0_CO[6] (1,25) -> (1,25)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_3$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  4.5  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_3$CARRY.COUT
+Info:  0.0  4.5    Net encoder0.leds_SB_CARRY_I0_CO[7] (1,25) -> (1,25)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_2$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  4.7  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_2$CARRY.COUT
+Info:  0.3  5.0    Net encoder0.leds_SB_CARRY_I0_CO[8] (1,25) -> (1,26)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_1$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  5.2  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_1$CARRY.COUT
+Info:  0.0  5.2    Net encoder0.leds_SB_CARRY_I0_CO[9] (1,26) -> (1,26)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  5.3  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO$CARRY.COUT
+Info:  0.0  5.3    Net encoder0.leds_SB_CARRY_I0_CO[10] (1,26) -> (1,26)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_26$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  5.5  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_26$CARRY.COUT
+Info:  0.0  5.5    Net encoder0.leds_SB_CARRY_I0_CO[11] (1,26) -> (1,26)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_25$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  5.7  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_25$CARRY.COUT
+Info:  0.0  5.7    Net encoder0.leds_SB_CARRY_I0_CO[12] (1,26) -> (1,26)
+Info:                Sink encoder0.leds_SB_CARRY_I0_2$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  5.9  Source encoder0.leds_SB_CARRY_I0_2$CARRY.COUT
+Info:  0.0  5.9    Net encoder0.leds_SB_CARRY_I0_CO[13] (1,26) -> (1,26)
+Info:                Sink encoder0.leds_SB_CARRY_I0_1$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  6.1  Source encoder0.leds_SB_CARRY_I0_1$CARRY.COUT
+Info:  0.0  6.1    Net encoder0.leds_SB_CARRY_I0_CO[14] (1,26) -> (1,26)
+Info:                Sink encoder0.leds_SB_CARRY_I0$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  6.3  Source encoder0.leds_SB_CARRY_I0$CARRY.COUT
+Info:  0.0  6.3    Net encoder0.leds_SB_CARRY_I0_CO[15] (1,26) -> (1,26)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_24$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  6.5  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_24$CARRY.COUT
+Info:  0.3  6.7    Net encoder0.leds_SB_CARRY_I0_CO[16] (1,26) -> (1,27)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_23$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  6.9  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_23$CARRY.COUT
+Info:  0.0  6.9    Net encoder0.leds_SB_CARRY_I0_CO[17] (1,27) -> (1,27)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_22$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  7.1  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_22$CARRY.COUT
+Info:  0.0  7.1    Net encoder0.leds_SB_CARRY_I0_CO[18] (1,27) -> (1,27)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_21$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  7.3  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_21$CARRY.COUT
+Info:  0.0  7.3    Net encoder0.leds_SB_CARRY_I0_CO[19] (1,27) -> (1,27)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_20$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  7.5  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_20$CARRY.COUT
+Info:  0.0  7.5    Net encoder0.leds_SB_CARRY_I0_CO[20] (1,27) -> (1,27)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_18$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  7.7  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_18$CARRY.COUT
+Info:  0.0  7.7    Net encoder0.leds_SB_CARRY_I0_CO[21] (1,27) -> (1,27)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_17$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  7.9  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_17$CARRY.COUT
+Info:  0.0  7.9    Net encoder0.leds_SB_CARRY_I0_CO[22] (1,27) -> (1,27)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_16$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  8.0  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_16$CARRY.COUT
+Info:  0.0  8.0    Net encoder0.leds_SB_CARRY_I0_CO[23] (1,27) -> (1,27)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_15$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  8.2  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_15$CARRY.COUT
+Info:  0.3  8.5    Net encoder0.leds_SB_CARRY_I0_CO[24] (1,27) -> (1,28)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_14$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  8.7  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_14$CARRY.COUT
+Info:  0.0  8.7    Net encoder0.leds_SB_CARRY_I0_CO[25] (1,28) -> (1,28)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_13$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  8.9  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_13$CARRY.COUT
+Info:  0.0  8.9    Net encoder0.leds_SB_CARRY_I0_CO[26] (1,28) -> (1,28)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_12$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  9.1  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_12$CARRY.COUT
+Info:  0.0  9.1    Net encoder0.leds_SB_CARRY_I0_CO[27] (1,28) -> (1,28)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_11$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  9.3  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_11$CARRY.COUT
+Info:  0.0  9.3    Net encoder0.leds_SB_CARRY_I0_CO[28] (1,28) -> (1,28)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_10$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  9.5  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_10$CARRY.COUT
+Info:  0.0  9.5    Net encoder0.leds_SB_CARRY_I0_CO[29] (1,28) -> (1,28)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_9$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  9.6  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_9$CARRY.COUT
+Info:  0.0  9.6    Net encoder0.leds_SB_CARRY_I0_CO[30] (1,28) -> (1,28)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_7$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  9.8  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_7$CARRY.COUT
+Info:  0.0  9.8    Net encoder0.leds_SB_CARRY_I0_CO[31] (1,28) -> (1,28)
+Info:                Sink random0.pulse_SB_DFFE_Q_D_SB_LUT4_O_I3_SB_CARRY_CO$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2 10.0  Source random0.pulse_SB_DFFE_Q_D_SB_LUT4_O_I3_SB_CARRY_CO$CARRY.COUT
+Info:  0.7 10.7    Net random0.pulse_SB_DFFE_Q_D_SB_LUT4_O_I0[3] (1,28) -> (1,29)
+Info:                Sink random0.pulse_SB_DFFE_Q_D_SB_LUT4_O_LC.I3
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.5 11.2  Setup random0.pulse_SB_DFFE_Q_D_SB_LUT4_O_LC.I3
+Info: 7.9 ns logic, 3.3 ns routing
+
+Info: Critical path report for cross-domain path '<async>' -> '<async>':
+Info: curr total
+Info:  0.0  0.0  Source reset$sb_io.D_IN_0
+Info:  3.4  3.4    Net reset$SB_IO_IN (0,16) -> (3,28)
+Info:                Sink pwm0_out_SB_LUT4_O_LC.I2
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:21.14-21.65
+Info:                  src/slow_clk.v:2.16-2.21
+Info:  0.6  4.0  Source pwm0_out_SB_LUT4_O_LC.O
+Info:  1.7  5.7    Net pwm0_out$SB_IO_OUT (3,28) -> (0,28)
+Info:                Sink pwm0_out$sb_io.D_OUT_0
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:9.17-9.25
+Info: 0.6 ns logic, 5.1 ns routing
+
+Info: Critical path report for cross-domain path '<async>' -> 'posedge clk$SB_IO_IN_$glb_clk':
+Info: curr total
+Info:  0.0  0.0  Source reset$sb_io.D_IN_0
+Info:  2.9  2.9    Net reset$SB_IO_IN (0,16) -> (2,26)
+Info:                Sink random0.cnt_SB_LUT4_I3_31_LC.I2
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:21.14-21.65
+Info:                  src/slow_clk.v:2.16-2.21
+Info:  0.6  3.5  Source random0.cnt_SB_LUT4_I3_31_LC.O
+Info:  0.9  4.3    Net encoder0.leds_SB_CARRY_I0_CO[1] (2,26) -> (1,25)
+Info:                Sink $nextpnr_ICESTORM_LC_5.I1
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.4  4.7  Source $nextpnr_ICESTORM_LC_5.COUT
+Info:  0.0  4.7    Net $nextpnr_ICESTORM_LC_5$O (1,25) -> (1,25)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_19$CARRY.CIN
+Info:  0.2  4.9  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_19$CARRY.COUT
+Info:  0.0  4.9    Net encoder0.leds_SB_CARRY_I0_CO[2] (1,25) -> (1,25)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_8$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  5.1  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_8$CARRY.COUT
+Info:  0.0  5.1    Net encoder0.leds_SB_CARRY_I0_CO[3] (1,25) -> (1,25)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_6$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  5.3  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_6$CARRY.COUT
+Info:  0.0  5.3    Net encoder0.leds_SB_CARRY_I0_CO[4] (1,25) -> (1,25)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_5$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  5.5  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_5$CARRY.COUT
+Info:  0.0  5.5    Net encoder0.leds_SB_CARRY_I0_CO[5] (1,25) -> (1,25)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_4$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  5.6  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_4$CARRY.COUT
+Info:  0.0  5.6    Net encoder0.leds_SB_CARRY_I0_CO[6] (1,25) -> (1,25)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_3$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  5.8  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_3$CARRY.COUT
+Info:  0.0  5.8    Net encoder0.leds_SB_CARRY_I0_CO[7] (1,25) -> (1,25)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_2$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  6.0  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_2$CARRY.COUT
+Info:  0.3  6.3    Net encoder0.leds_SB_CARRY_I0_CO[8] (1,25) -> (1,26)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_1$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  6.5  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_1$CARRY.COUT
+Info:  0.0  6.5    Net encoder0.leds_SB_CARRY_I0_CO[9] (1,26) -> (1,26)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  6.7  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO$CARRY.COUT
+Info:  0.0  6.7    Net encoder0.leds_SB_CARRY_I0_CO[10] (1,26) -> (1,26)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_26$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  6.9  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_26$CARRY.COUT
+Info:  0.0  6.9    Net encoder0.leds_SB_CARRY_I0_CO[11] (1,26) -> (1,26)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_25$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  7.1  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_25$CARRY.COUT
+Info:  0.0  7.1    Net encoder0.leds_SB_CARRY_I0_CO[12] (1,26) -> (1,26)
+Info:                Sink encoder0.leds_SB_CARRY_I0_2$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  7.2  Source encoder0.leds_SB_CARRY_I0_2$CARRY.COUT
+Info:  0.0  7.2    Net encoder0.leds_SB_CARRY_I0_CO[13] (1,26) -> (1,26)
+Info:                Sink encoder0.leds_SB_CARRY_I0_1$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  7.4  Source encoder0.leds_SB_CARRY_I0_1$CARRY.COUT
+Info:  0.0  7.4    Net encoder0.leds_SB_CARRY_I0_CO[14] (1,26) -> (1,26)
+Info:                Sink encoder0.leds_SB_CARRY_I0$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  7.6  Source encoder0.leds_SB_CARRY_I0$CARRY.COUT
+Info:  0.0  7.6    Net encoder0.leds_SB_CARRY_I0_CO[15] (1,26) -> (1,26)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_24$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  7.8  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_24$CARRY.COUT
+Info:  0.3  8.1    Net encoder0.leds_SB_CARRY_I0_CO[16] (1,26) -> (1,27)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_23$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  8.3  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_23$CARRY.COUT
+Info:  0.0  8.3    Net encoder0.leds_SB_CARRY_I0_CO[17] (1,27) -> (1,27)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_22$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  8.5  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_22$CARRY.COUT
+Info:  0.0  8.5    Net encoder0.leds_SB_CARRY_I0_CO[18] (1,27) -> (1,27)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_21$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  8.6  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_21$CARRY.COUT
+Info:  0.0  8.6    Net encoder0.leds_SB_CARRY_I0_CO[19] (1,27) -> (1,27)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_20$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  8.8  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_20$CARRY.COUT
+Info:  0.0  8.8    Net encoder0.leds_SB_CARRY_I0_CO[20] (1,27) -> (1,27)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_18$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  9.0  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_18$CARRY.COUT
+Info:  0.0  9.0    Net encoder0.leds_SB_CARRY_I0_CO[21] (1,27) -> (1,27)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_17$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  9.2  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_17$CARRY.COUT
+Info:  0.0  9.2    Net encoder0.leds_SB_CARRY_I0_CO[22] (1,27) -> (1,27)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_16$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  9.4  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_16$CARRY.COUT
+Info:  0.0  9.4    Net encoder0.leds_SB_CARRY_I0_CO[23] (1,27) -> (1,27)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_15$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2  9.6  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_15$CARRY.COUT
+Info:  0.3  9.9    Net encoder0.leds_SB_CARRY_I0_CO[24] (1,27) -> (1,28)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_14$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2 10.0  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_14$CARRY.COUT
+Info:  0.0 10.0    Net encoder0.leds_SB_CARRY_I0_CO[25] (1,28) -> (1,28)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_13$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2 10.2  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_13$CARRY.COUT
+Info:  0.0 10.2    Net encoder0.leds_SB_CARRY_I0_CO[26] (1,28) -> (1,28)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_12$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2 10.4  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_12$CARRY.COUT
+Info:  0.0 10.4    Net encoder0.leds_SB_CARRY_I0_CO[27] (1,28) -> (1,28)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_11$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2 10.6  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_11$CARRY.COUT
+Info:  0.0 10.6    Net encoder0.leds_SB_CARRY_I0_CO[28] (1,28) -> (1,28)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_10$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2 10.8  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_10$CARRY.COUT
+Info:  0.0 10.8    Net encoder0.leds_SB_CARRY_I0_CO[29] (1,28) -> (1,28)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_9$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2 11.0  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_9$CARRY.COUT
+Info:  0.0 11.0    Net encoder0.leds_SB_CARRY_I0_CO[30] (1,28) -> (1,28)
+Info:                Sink encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_7$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2 11.2  Source encoder0.leds_SB_CARRY_I0_CO_SB_CARRY_CO_7$CARRY.COUT
+Info:  0.0 11.2    Net encoder0.leds_SB_CARRY_I0_CO[31] (1,28) -> (1,28)
+Info:                Sink random0.pulse_SB_DFFE_Q_D_SB_LUT4_O_I3_SB_CARRY_CO$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.2 11.4  Source random0.pulse_SB_DFFE_Q_D_SB_LUT4_O_I3_SB_CARRY_CO$CARRY.COUT
+Info:  0.7 12.0    Net random0.pulse_SB_DFFE_Q_D_SB_LUT4_O_I0[3] (1,28) -> (1,29)
+Info:                Sink random0.pulse_SB_DFFE_Q_D_SB_LUT4_O_LC.I3
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:27.13-27.22
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.5 12.5  Setup random0.pulse_SB_DFFE_Q_D_SB_LUT4_O_LC.I3
+Info: 7.2 ns logic, 5.3 ns routing
+
+Info: Critical path report for cross-domain path '<async>' -> 'posedge clock0$SB_IO_OUT_$glb_clk':
+Info: curr total
+Info:  0.0  0.0  Source enc0_b$sb_io.D_IN_0
+Info:  5.6  5.6    Net enc0_b$SB_IO_IN (33,6) -> (5,24)
+Info:                Sink debounce0_b.button_hist_SB_DFFSR_Q_7_DFFLC.I0
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:8.16-8.22
+Info:  0.7  6.3  Setup debounce0_b.button_hist_SB_DFFSR_Q_7_DFFLC.I0
+Info: 0.7 ns logic, 5.6 ns routing
+
+Info: Critical path report for cross-domain path 'posedge clk$SB_IO_IN_$glb_clk' -> '<async>':
+Info: curr total
+Info:  0.8  0.8  Source encoder0.value_SB_DFFESR_Q_5_D_SB_LUT4_O_LC.O
+Info:  2.0  2.8    Net enc0[2] (4,24) -> (3,27)
+Info:                Sink pwm0_out_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_4$CARRY.I3
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:32.12-32.76
+Info:                  src/random.v:12.22-12.28
+Info:  0.5  3.2  Source pwm0_out_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_4$CARRY.O
+Info:  0.9  4.1    Net encoder0.value_SB_DFFESR_Q_7_D[2] (3,27) -> (3,27)
+Info:                Sink pwm0_out_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_4$CARRY.I2
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:30.22-30.83
+Info:                  src/pwm.v:14.19-14.32
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:49.21-49.23
+Info:  0.3  4.4  Source pwm0_out_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_4$CARRY.COUT
+Info:  0.0  4.4    Net pwm0_out_SB_LUT4_O_I3[2] (3,27) -> (3,27)
+Info:                Sink pwm0_out_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_3$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:30.22-30.83
+Info:                  src/pwm.v:14.19-14.32
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:  0.2  4.6  Source pwm0_out_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_3$CARRY.COUT
+Info:  0.0  4.6    Net pwm0_out_SB_LUT4_O_I3[3] (3,27) -> (3,27)
+Info:                Sink pwm0_out_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_2$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:30.22-30.83
+Info:                  src/pwm.v:14.19-14.32
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:  0.2  4.8  Source pwm0_out_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_2$CARRY.COUT
+Info:  0.0  4.8    Net pwm0_out_SB_LUT4_O_I3[4] (3,27) -> (3,27)
+Info:                Sink pwm0_out_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_1$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:30.22-30.83
+Info:                  src/pwm.v:14.19-14.32
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:  0.2  5.0  Source pwm0_out_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_1$CARRY.COUT
+Info:  0.0  5.0    Net pwm0_out_SB_LUT4_O_I3[5] (3,27) -> (3,27)
+Info:                Sink pwm0_out_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:30.22-30.83
+Info:                  src/pwm.v:14.19-14.32
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:  0.2  5.2  Source pwm0_out_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO$CARRY.COUT
+Info:  0.0  5.2    Net pwm0_out_SB_LUT4_O_I3[6] (3,27) -> (3,27)
+Info:                Sink pwm0_out_SB_LUT4_O_I3_SB_CARRY_CO$CARRY.CIN
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:30.22-30.83
+Info:                  src/pwm.v:14.19-14.32
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:51.21-51.22
+Info:  0.2  5.4  Source pwm0_out_SB_LUT4_O_I3_SB_CARRY_CO$CARRY.COUT
+Info:  0.7  6.0    Net pwm0_out_SB_LUT4_O_I3[7] (3,27) -> (3,28)
+Info:                Sink pwm0_out_SB_LUT4_O_LC.I3
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:30.22-30.83
+Info:                  src/pwm.v:14.19-14.32
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:37.23-37.25
+Info:  0.5  6.5  Source pwm0_out_SB_LUT4_O_LC.O
+Info:  1.7  8.2    Net pwm0_out$SB_IO_OUT (3,28) -> (0,28)
+Info:                Sink pwm0_out$sb_io.D_OUT_0
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:9.17-9.25
+Info: 3.0 ns logic, 5.2 ns routing
+
+Info: Critical path report for cross-domain path 'posedge clock0$SB_IO_OUT_$glb_clk' -> 'posedge clk$SB_IO_IN_$glb_clk':
+Info: curr total
+Info:  0.8  0.8  Source debounce0_a.debounced_SB_DFFESR_Q_DFFLC.O
+Info:  2.0  2.8    Net enc0_a_db (5,29) -> (5,25)
+Info:                Sink encoder0.old_b_SB_LUT4_I1_1_LC.I3
+Info:                Defined in:
+Info:                  src/rgb_mixer.v:27.26-27.118
+Info:                  src/encoder.v:9.16-9.17
+Info:  0.5  3.2  Source encoder0.old_b_SB_LUT4_I1_1_LC.O
+Info:  0.9  4.1    Net encoder0.old_b_SB_LUT4_I1_1_O[0] (5,25) -> (4,25)
+Info:                Sink encoder0.old_b_SB_LUT4_I1_1_O_SB_LUT4_I1_LC.I1
+Info:                Defined in:
+Info:                  /home/peter/zerotoasic/oss-cad-suite/lib/../share/yosys/ice40/cells_map.v:6.21-6.22
+Info:  0.6  4.7  Source encoder0.old_b_SB_LUT4_I1_1_O_SB_LUT4_I1_LC.O
+Info:  1.4  6.1    Net encoder0.old_b_SB_LUT4_I1_1_O_SB_LUT4_I1_O (4,25) -> (3,26)
+Info:                Sink encoder0.value_SB_DFFESR_Q_7_DFFLC.CEN
+Info:  0.1  6.2  Setup encoder0.value_SB_DFFESR_Q_7_DFFLC.CEN
+Info: 1.9 ns logic, 4.2 ns routing
+
+Info: Max frequency for clock 'clock0$SB_IO_OUT_$glb_clk': 134.39 MHz (PASS at 20.00 MHz)
+Info: Max frequency for clock     'clk$SB_IO_IN_$glb_clk': 89.49 MHz (PASS at 20.00 MHz)
+
+Info: Max delay <async>                           -> <async>                          : 5.67 ns
+Info: Max delay <async>                           -> posedge clk$SB_IO_IN_$glb_clk    : 12.52 ns
+Info: Max delay <async>                           -> posedge clock0$SB_IO_OUT_$glb_clk: 6.33 ns
+Info: Max delay posedge clk$SB_IO_IN_$glb_clk     -> <async>                          : 8.16 ns
+Info: Max delay posedge clock0$SB_IO_OUT_$glb_clk -> posedge clk$SB_IO_IN_$glb_clk    : 6.15 ns
+
+Info: Slack histogram:
+Info:  legend: * represents 1 endpoint(s)
+Info:          + represents [1,1) endpoint(s)
+Info: [ 38825,  39276) |* 
+Info: [ 39276,  39727) | 
+Info: [ 39727,  40178) | 
+Info: [ 40178,  40629) | 
+Info: [ 40629,  41080) | 
+Info: [ 41080,  41531) | 
+Info: [ 41531,  41982) | 
+Info: [ 41982,  42433) |** 
+Info: [ 42433,  42884) |******* 
+Info: [ 42884,  43335) |* 
+Info: [ 43335,  43786) | 
+Info: [ 43786,  44237) |**** 
+Info: [ 44237,  44688) |******* 
+Info: [ 44688,  45139) |********************** 
+Info: [ 45139,  45590) |****** 
+Info: [ 45590,  46041) |****** 
+Info: [ 46041,  46492) |***************** 
+Info: [ 46492,  46943) |******************** 
+Info: [ 46943,  47394) |*********** 
+Info: [ 47394,  47845) |********************************************************* 
+54 warnings, 0 errors
+
+Info: Program finished normally.
